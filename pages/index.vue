@@ -47,6 +47,7 @@ type User = {
         <h1>トップページ</h1>
         <hr />
         <h1>hello Nuxt!</h1>
+        <NuxtLink to="./posts">Posts一覧へ</NuxtLink>
         <h2>{{ name }}</h2>
         <button @click="countUp">ボタン</button>
         <h2>{{ counter }}</h2>
