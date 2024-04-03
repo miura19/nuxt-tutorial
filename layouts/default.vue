@@ -10,6 +10,9 @@
 
 <style>
 
+body{
+    background-color: #eeee;
+}
 .container{
     max-width: 890px;
     margin: 0 auto;
