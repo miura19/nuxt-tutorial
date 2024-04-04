@@ -25,3 +25,9 @@ const posts = data.value;
         </ul>
     </div>
 </template>
+
+<style>
+li{
+    padding: 4px;
+}
+</style>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import { ref } from 'vue'
-const name = ref<String>("nanami")
+const name = ref<String>("miura")
 const counter = ref(0)
 const countUp = () => {
     counter.value++
@@ -57,3 +57,9 @@ type User = {
         </ul>
     </div>
 </template>
+
+<style>
+li{
+    padding: 4px;
+}
+</style>

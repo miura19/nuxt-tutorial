@@ -4,7 +4,7 @@
         <header>Nuxt App</header>
         <!-- 下記slotは、NuxtLayoutコンポーネントの子要素に差し代わる -->
         <slot />
-        <footer>&copy; Sato</footer>
+        <footer>&copy; Miura</footer>
     </div>
 </template>
 
