@@ -8,6 +8,14 @@
         <Button></Button>
         <Button></Button>
         <Button></Button>
-        <NuxtLink to="/">トップページへ</NuxtLink>
+        <p class="goto-toppage">
+            <NuxtLink to="/">トップページへ</NuxtLink>
+        </p>
     </div>
 </template>
+
+<style>
+.goto-toppage {
+    margin-top: 12px;
+}
+</style>

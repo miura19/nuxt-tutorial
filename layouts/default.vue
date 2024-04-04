@@ -28,6 +28,7 @@ footer{
     background: coral;
     padding: 12px;
     border-radius: 8px;
+    margin-top: 12px
 }
 
 ul {
