@@ -17,7 +17,11 @@ const posts = data.value;
         <h1>Posts一覧</h1>
         <nuxt-link to="/">トップページへ</nuxt-link>
         <ul>
-            <li v-for="post in posts" :key="post.id"><NuxtLink to="`/posts/${post.id}`">{{post.id}} : {{ post.title }}</NuxtLink></li>
+            <li v-for="post in posts" :key="post.id">
+                <NuxtLink :to="{ name: 'posts-id', params: { id: post.id } }">
+                    {{ post.id }} : {{ post.title }}
+                </NuxtLink>
+            </li>
         </ul>
     </div>
 </template>
